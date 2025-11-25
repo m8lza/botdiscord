@@ -3,7 +3,7 @@ const client = new Client();
 const { joinVoiceChannel } = require("@discordjs/voice");
 
 const USER_TOKEN =
-  "MjEyNjQyNTA4NzQyNTkwNDY1.GUeZG0._T8hOqBlD2vNgl4NZZz2x-Us0OUcOtY-agkSy0";
+  "MjEyNjQyNTA4NzQyNTkwNDY1.G74wdZ.WTXt_7Zvccmdyef488m7pRzXxf2wWjj1dc9Vr0";
 const GUILD_ID = "1428476040551989270";
 const VOICE_CHANNEL_ID = "1430533990275612824";
 const TEXT_CHANNEL_ID = "212642508742590465";
@@ -75,5 +75,5 @@ client.on("voiceStateUpdate", async (oldState, newState) => {
 });
 
 client.login(
-  "MjEyNjQyNTA4NzQyNTkwNDY1.GUeZG0._T8hOqBlD2vNgl4NZZz2x-Us0OUcOtY-agkSy0"
+  "MjEyNjQyNTA4NzQyNTkwNDY1.G74wdZ.WTXt_7Zvccmdyef488m7pRzXxf2wWjj1dc9Vr0"
 );
